@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(Img/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.header .banner{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: rgba(12, 61, 12, 0.861);
+    display: flex;
+    margin-right: 20px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header ul li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+    margin-right: 40px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.header ul li a:hover{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 28px;
+    border-bottom: 5px solid rgba(12, 61, 12, 0.861);
+    border-top: 5px solid rgba(12, 61, 12, 0.861);
+}
+
+.header .loginbtn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+.header .loginbtn img:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    color: rgba(12, 61, 12, 0.861);
+    width: 40px;
+    height: 40px;
+}
+
+.container .header .icons{
+    display: flex;
+}
+
+.text{
+    height: auto;
+    width: 40%;
+    display: grid;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.text h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgba(12, 61, 12, 0.861);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text p{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    color: black;
+}
+
+.text .explorebtn{
+    height: 60px;
+    width: 250px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(12, 61, 12, 0.861);
+    color: aliceblue;
+    border: 2px solid rgba(245, 245, 245, 0.655);
+    border-radius: 20px;
+}
+
+.text .explorebtn:hover{
+    background-color: transparent;
+    color: rgba(12, 61, 12, 0.861);
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.main h3{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(12, 61, 12, 0.861);
+    padding-left: 40%;
+    margin-top: 40px;
+}
+
+.main .midcontainer{
+    width: 90%;
+    height: auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.main .midcontainer .aboutimg{
+    width: 70%;
+    height: 700px;
+}
+
+.main .midcontainer .aboutimg img{
+    width: 500px;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.main .midcontainer .abouttext{
+    width: 60%;
+    height: 500px;
+}
+
+.main .midcontainer .abouttext h2{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(12, 61, 12, 0.861);
+    margin-bottom: 15px; 
+}
+
+.main .midcontainer .abouttext p{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: black;
+    line-height: 25px;
+}
+
+.main .midcontainer .abouttext .productbtn{
+    width: 200px;
+    height: 50px;
+    background-color: rgba(12, 61, 12, 0.861);
+    border-radius: 60px;
+    border: 2px solid whitesmoke;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.main .midcontainer .abouttext .productbtn:hover{
+    color: rgba(12, 61, 12, 0.861);
+    background-color: transparent;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin-top: 1px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .name h2 p{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    text-align: center;
+}

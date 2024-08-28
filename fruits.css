@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.toppest{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.toppest .topheading{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(12, 61, 12, 0.861);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toppest .topheading p{
+    color: aliceblue;
+    word-spacing: 8px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+.toppest .container{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.header .banner{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: rgba(12, 61, 12, 0.861);
+    display: flex;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header ul li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header ul li a:hover{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 20px;
+    border-bottom: 3px solid rgba(12, 61, 12, 0.861);
+    border-top: 3px solid rgba(12, 61, 12, 0.861);
+}
+
+.toppest .container .header .search{
+    width: 300px;
+    border-radius: 30px;
+    border: 3px solid rgba(12, 61, 12, 0.861);
+    padding: 8px;
+    margin-left: 100px;
+}
+
+.toppest .container .header .search input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 280px;
+}
+
+.header .icons{
+    width: 200px;
+    height: 35px;
+    justify-content: center;
+    display: flex;
+}
+
+.header .icons p{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.header .icons .loginbtn{
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.header .icons .loginbtn a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(12, 61, 12, 0.861);
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 21px;
+}
+
+.header .icons .loginbtn a:hover{
+    background-color: transparent;
+    color: rgba(12, 61, 12, 0.861);
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.main .heading{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.main .heading h2{
+    margin-top: 15px;
+}
+
+.Products{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fruits{
+    width: 400px;
+    height: 550px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid rgba(12, 61, 12, 0.861);
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Products .fruits img{
+    width: 360px;
+    height: 300px;
+}
+
+.fruits h1{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.fruits h2{
+    color: black;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.fruits button{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(12, 61, 12, 0.861);
+    color: white;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.fruits button a{
+    padding-left: 58px;
+    padding-right: 58px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(12, 61, 12, 0.861);
+    color: white;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.fruits button:hover{
+    color: rgba(12, 61, 12, 0.861);
+    background-color: white;
+    border: none;
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    margin-top: 0px;
+    background-color: rgba(12, 61, 12, 0.861);
+}
+
+footer .footer{
+    width: 100%;
+    height: 300px;
+}
+
+footer .footer .partmain{
+    width: 98%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer .partmain .partone{
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+footer .footer .partmain .partone h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.partone p{
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .footer .partmain .parttwo{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+
+.parttwo a{
+    color: rgb(157, 157, 157);
+    justify-content: center;
+    font-size: 25px;
+}
+
+.parttwo a i{
+    margin-right: 15px;
+}
+
+.parttwo a i:hover{
+    color: white;
+    font-size: 27px;
+}
+
+footer .footer .partmain .parttwo h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+footer .footer .partmain .partthree{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer .footer .partmain .partthree h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer .footer .partmain .partthree p{
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .footer .partmain .partfour{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer .footer .partmain .partfour h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer .footer .partmain .partfour p{
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .footer .down{
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    color: rgb(157, 157, 157);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+}
+
+footer .footer .down p{
+    margin-right: 5px;
+}

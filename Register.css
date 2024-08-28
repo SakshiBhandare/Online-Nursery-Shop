@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.toppest{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.toppest .topheading{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(12, 61, 12, 0.861);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toppest .topheading p{
+    color: aliceblue;
+    word-spacing: 8px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+.toppest .container{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.header .banner{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: rgba(12, 61, 12, 0.861);
+    display: flex;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header ul li a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+    margin-right: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header ul li a:hover{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 20px;
+    border-bottom: 3px solid rgba(12, 61, 12, 0.861);
+    border-top: 3px solid rgba(12, 61, 12, 0.861);
+}
+
+.toppest .container .header .search{
+    width: 300px;
+    border-radius: 30px;
+    border: 3px solid rgba(12, 61, 12, 0.861);
+    padding: 8px;
+    margin-left: 100px;
+}
+
+.toppest .container .header .search input{
+    background: transparent;
+    border: 0px;
+    outline: 0px;
+    width: 280px;
+}
+
+.header .icons{
+    width: 250px;
+    height: 35px;
+    justify-content: center;
+    display: flex;
+}
+
+.header .icons .loginbtn{
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.header .icons .loginbtn a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(12, 61, 12, 0.861);
+    font-size: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 18px;
+}
+
+.header .icons .loginbtn a:hover{
+    background-color: transparent;
+    color: rgba(12, 61, 12, 0.861);
+}
+
+.formcontainer{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.formcontainer .formdata{
+    width: 100%;
+    height: auto;
+}
+
+.formcontainer .formdata .form{
+    width: 80%;
+    height: auto;
+    background-color: rgba(171, 237, 171, 0.861);
+    margin-left: 150px;
+    justify-content: center;
+}
+
+.formcontainer .formdata .form img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    margin-left: 500px;
+}
+
+.formcontainer .formdata .form h2{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 35px;
+    margin-left: 440px;
+}
+
+.formcontainer .formdata .form form{
+    height: 350px;
+}
+
+.formcontainer .formdata .form form .onemore{
+    display: flex;
+}
+
+.formcontainer .formdata .form form .one{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.one h3{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* .one .partone{
+    width: 555px;
+    height: 30px;
+} */
+
+.one .partone #per{
+    width: 560px;
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.one #gender{
+    width: 563px;
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+.one .pass #pass{
+    width: 560px;
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.formcontainer .formdata .form form .two{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.two h3{
+    color: rgba(12, 61, 12, 0.861);
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.two #cd{
+    width: 560px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.form form .submit{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.form form .submit #button{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(12, 61, 12, 0.861);
+    color: white;
+    font-size: 20px;
+    border: 2px solid rgba(12, 61, 12, 0.861);
+}
+
+.form form .submit #button:hover{
+    background-color: white;
+    border: 2px solid rgba(12, 61, 12, 0.861);
+    color: rgba(12, 61, 12, 0.861);
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+    background-color: rgba(12, 61, 12, 0.861);
+}
+
+footer .footer{
+    width: 100%;
+    height: 300px;
+}
+
+footer .footer .partmain{
+    width: 98%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer .partmain .partone{
+    width: 350px;
+    height: 200px;
+    margin-left: 70px;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+footer .footer .partmain .partone h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.partone p{
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .footer .partmain .parttwo{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+
+.parttwo a{
+    color: rgb(157, 157, 157);
+    justify-content: center;
+    font-size: 25px;
+}
+
+.parttwo a i{
+    margin-right: 15px;
+}
+
+.parttwo a i:hover{
+    color: white;
+    font-size: 27px;
+}
+
+footer .footer .partmain .parttwo h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+footer .footer .partmain .partthree{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer .footer .partmain .partthree h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer .footer .partmain .partthree p{
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .footer .partmain .partfour{
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer .footer .partmain .partfour h2{
+    color: white;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer .footer .partmain .partfour p{
+    color: rgb(157, 157, 157);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+footer .footer .down{
+    width: 100%;
+    height: 20px;
+    margin-top: 20px;
+    color: rgb(157, 157, 157);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0px;
+}
+
+footer .footer .down p{
+    margin-right: 5px;
+}

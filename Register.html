@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugaoo.com/Registration Form</title>
+    <link rel="stylesheet" href="Register.css">
+    <link rel="shortcut icon" href="Img/earth.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="toppest"> 
+        <div class="topheading">
+            <p>Thunder Sale is Live | Upto 60% off | Shop Now</p>
+            <p>Free Shipping above Rs.399 | All Over India</p>
+            <p>Call us: +91 9876543210</p>
+        </div>
+        <div class="container">
+            <div class="header">
+                <div class="banner">
+                    <img src="Img/earth.png" alt="" height="50px" width="50px">
+                    <h3>Ugaoo Nursery</h3>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="products.html">Plants</a></li>
+                        <li><a href="Seeds.html">Seeds</a></li>
+                        <li><a href="Feedback.html">Feedback</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="search">
+                   <input type="search" placeholder="Type to search">
+                   <i class="fa fa-search"></i>
+                </div>
+    
+                <div class="icons">
+                    <!-- <button type="button" class="loginbtn"><a href="Register.html">SignIn</a></button> -->
+                    <button type="button" class="loginbtn"><a href="Login.html">LogIn</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="formcontainer">
+            <div class="formdata">
+                <div class="form">
+                    <img src="Img/user2.png" alt="">
+                    <h2>Registration Form</h2>
+
+                    <form action="Register.php" method="post">
+                        <div class="onemore">
+                            <div class="one">
+                                <h3>Personal Details</h3>
+                                <div class="partone">
+                                    <input type="text" name="username" id="per" placeholder="Username" required>
+                                    <!-- <input type="text" name="mname" id="per" placeholder="Middle Name">
+                                    <input type="text" name="lname" id="per" placeholder="Last Name"> -->
+                                </div>
+    
+                                <select name="gender" id="gender" required>
+                                    <option selected hidden value=" ">Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+    
+                                <div class="pass">
+                                    <input type="password" name="password" id="pass" placeholder="Password" required>
+                                    <input type="password" name="cpass" id="pass" placeholder="Confirm Password" required>
+                                </div>
+                            </div>
+    
+                            <div class="two">
+                                <h3>Contact Details</h3>
+                                <input type="tel" name="contact" id="cd" placeholder="Phone" required>
+                                <input type="email" name="email" id="cd" placeholder="Email" required>
+                                <input type="text" name="address1" id="cd" placeholder="Address Line One" required>
+                                <input type="text" name="address2" id="cd" placeholder="Address Line Two" required>
+                            </div>
+                        </div>
+
+                        <div class="submit">
+                            <!-- <button type="submit">Register Now</button> -->
+                            <input type="submit" name="submit" value="Register Now" id="button">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                <div class="partmain">
+                    <div class="partone">
+                        <h2>About Ugaoo Nursery</h2>
+                        <p>We send personalized plant or seed to our customers. You will get the best quality plants and seeds here with your convinience on a single click.</p>
+                    </div>
+    
+                    <div class="parttwo">
+                        <h2>Follow Us On</h2>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-whatsapp"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+    
+                    <div class="partthree">
+                        <h2>Get In Touch</h2>
+                        <p>+91 9876543210</p>
+                        <p>ugaoohelpdesk@gmail.com</p>
+                    </div>
+    
+                    <div class="partfour">
+                        <h2>Privacy Policy</h2>
+                        <p>Terms & Conditions</p>
+                        <p>Information</p>
+                        <p>About Us</p>
+                    </div>
+                </div>
+    
+                <div class="down">
+                    <p>&copy; 2023 Ugaoo.com  All Rights Reserved |</p>
+                    <p>Designed By Sakshi Bhandare & Soniya Kapse</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>
